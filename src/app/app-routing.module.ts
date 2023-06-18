@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'button',
     loadChildren: () => import('./pages/button/button.module').then( m => m.ButtonPageModule)
   },
+  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+  },
 ];
 
 @NgModule({
