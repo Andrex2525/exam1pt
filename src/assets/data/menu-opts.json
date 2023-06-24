@@ -18,6 +18,11 @@
     "icon": "logo-ionic",
     "name": "Button",
     "redirectTo": "/button"
+    },
+    {
+    "icon": "document-text-outline",
+    "name": "Input",
+    "redirectTo": "/input"
     }
 ]
 
